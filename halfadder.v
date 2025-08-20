@@ -2,7 +2,7 @@ module halfadder(a,b,out,cout);
   input a,b;
   output out,cout;
 
-  assign {cout,sum} = a+b;
+  assign {cout,out} = a+b;
 
 endmodule
 
